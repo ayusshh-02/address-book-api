@@ -33,9 +33,25 @@ The project demonstrates clean architecture, validation, logging, and best pract
 
 ## Project Structure
 
-address-book-api/ │ ├── app/ │ ├── main.py │ ├── database.py │ ├──
-models.py │ ├── schemas.py │ ├── crud.py │ ├── utils.py │ ├── logs/ ├──
-requirements.txt └── README.md
+## 📁 Project Structure
+
+```
+address-book-api/
+│
+├── app/
+│   ├── main.py        # Application entry point
+│   ├── database.py    # Database configuration
+│   ├── models.py      # Database models
+│   ├── schemas.py     # Request/response validation
+│   ├── crud.py        # Database operations
+│   ├── utils.py       # Utility functions
+│
+├── logs/              # Application logs
+├── requirements.txt  # Dependencies
+├── README.md         # Documentation
+└── .gitignore         # Git ignore rules
+```
+
 
 ------------------------------------------------------------------------
 
